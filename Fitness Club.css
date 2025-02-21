@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.headerAndImage{
+    background: url(https://i.pinimg.com/originals/ae/42/e4/ae42e483bf459a77366e39a9837122a2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color:white;
+    font-size: 22px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(186, 52, 52);
+}
+.mediaIcons{
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    
+}img.logoMain{
+    filter: invert(100%);
+}h1{
+    margin-left: -320px;
+    
+}li, i, .logo-name{
+    margin-top: 30px;
+}
+  .logo-name:hover{
+    color: whitesmoke;
+}a:hover{
+    text-decoration: underline;
+    color: orange;
+}body{
+    height: 2000px;
+}.bands{
+    background-color: black;
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+}section{
+    background-color: black;
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    color: white;}
+section:nth-child(2){
+    background-color: orange;}
+section h1{
+    color: white;
+    margin-left: 0px;
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+section p{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box{
+    display: flex;
+    gap: 50px;
+}
+
+.two-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.newsletter{
+    background-color: black;
+    height: 300px;
+    margin-top: 100px;
+    color: white;
+}
+
+.newsletter h1{
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.newsletter p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.newsletter p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.newsletter input{
+    background-color: white;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+.newsletter button.but{
+    background-color: orange;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 200px;
+    padding-left: 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 600px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: -200px;
+    margin-top: 50px;
+}
+
+.box h1{
+    margin-left: -10px;
+    color: orange;
+}
